@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- 关联模块 -->
+  <modules>
+    <module>want-shopping-common</module>
+    <module>want-shopping-goods</module>
+    <module>want-shopping-order</module>
+    <module>want-shopping-receiver</module>
+    <module>want-shopping-user</module>
+    <module>want-shopping-flashsale</module>
+  </modules>
+
+  <groupId>org.biangbiang.wantshopping</groupId>
+  <artifactId>want-shopping-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>want-shopping-parent</name>
+  <url>http://maven.apache.org</url>
+  <description>WantShopping serivce project parent</description> 
+
+
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+</project>
